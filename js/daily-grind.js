@@ -48,7 +48,22 @@
     today = parseInt(today);
 
     switch(today){
+       
+
+    case 0:
+        today = "Sunday";
+
+        coffee ={
+            name: "Pumpkin Spice Latte",
+            pic: "images/pumpkin-spice-latte.jpg",
+            alt: "A picture of a Pumpkin Spice Latte",
+            color: "orange",
+            day: "Saturday",
+            desc: `I love me some pumpkin spice latte!`
+        };
         
+    break;
+
     case 1:
         today = "Monday";
 
@@ -80,7 +95,61 @@
 
     case 3:
         today = "Wednesday";
+
+        coffee ={
+            name: "Cold Brew",
+            pic: "images/cold-brew.jpg",
+            alt: "A picture of a cold brew",
+            color: "blue",
+            day: "Wednesday",
+            desc: `I love me some cold brew!`
+        };
+
     break;
+
+    case 4:
+        today = "Thursday";
+
+        coffee ={
+            name: "Drip",
+            pic: "images/drip.jpg",
+            alt: "A picture of a drip",
+            color: "black",
+            day: "Thursday",
+            desc: `I love me some drip!`
+        };
+        
+    break;
+
+    case 5:
+        today = "Friday";
+
+        coffee ={
+            name: "Caramel Latte",
+            pic: "images/caramel-latte.jpg",
+            alt: "A picture of a caramel latte",
+            color: "yellow",
+            day: "Friday",
+            desc: `I love me some caramel latte!`
+        };
+        
+    break;
+
+    case 6:
+        today = "Saturday";
+
+        coffee ={
+            name: "Frappaccino",
+            pic: "images/frappaccino.jpg",
+            alt: "A picture of a frappaccino",
+            color: "white",
+            day: "Saturday",
+            desc: `I love me some frappaccino!`
+        };
+        
+    break;
+
+
 
     default:
         today = "Day is unknown";
