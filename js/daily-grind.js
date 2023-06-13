@@ -27,6 +27,7 @@
     const urlParams = new URLSearchParams(queryString);
 
 
+
     function coffeeTemplate(coffee){
         
         return`
